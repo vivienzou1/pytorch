@@ -4,6 +4,7 @@ import re
 
 import torch._C
 from torch._C import _add_docstr as add_docstr
+# _add_docstr: {"_add_docstr",     (PyCFunction)THPModule_addDocStr,       METH_VARARGS, nullptr},
 
 
 def parse_kwargs(desc):
